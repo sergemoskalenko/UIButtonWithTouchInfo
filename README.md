@@ -27,3 +27,28 @@ sergemoskalenko, skype:camopu-ympo, http://camopu.rhorse.ru/ios
 ## License
 
 UIButtonWithTouchInfo is available under the MIT license. See the LICENSE file for more info.
+
+## Memo - create Pod
+
+1.
+pod lib create UIButtonWithTouchInfo
+
+2. Need «colored2»?
+sudo gem install colored2
+
+3. Questions
+
+4. Validation
+pod lib lint UIButtonWithTouchInfo.podspec
+
+6. push to repository, make brunch = pod version
+
+5. Account on CocoaPod
+pod trunk register my.super.mail@gmail.com ‘Serge Moskalenko’ --description=‘Serge Moskalenko account’
+
+6. Publish
+pod trunk push UIButtonWithTouchInfo.podspec
+
+7. Try
+pod "UIButtonWithTouchInfo"
+
