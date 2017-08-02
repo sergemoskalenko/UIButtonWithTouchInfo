@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CEB092DA50ABD028F71D3C88A833BA7 /* UIButtonWithTouchInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CB9667A0D85E924F7E28EB8349E3C8 /* UIButtonWithTouchInfo-dummy.m */; };
+		2C8CEEC6D7C61485F3AADE8AEE5E14CD /* UIButtonWithTouchInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B08C60AF95DD7C2097F197235EF8C8 /* UIButtonWithTouchInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD0C411BD6E0D3799FB648655A97C68 /* Pods-UIButtonWithTouchInfo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D511BB8909432B78C014DE137F30D09 /* Pods-UIButtonWithTouchInfo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31741EA610C812219E8F035563B14202 /* Pods-UIButtonWithTouchInfo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7292DBDBD1EF6408E6ED8A4E0CC9EA9 /* Pods-UIButtonWithTouchInfo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38CE0F4A83C4C6193C51681B0AEB67EF /* UIButtonWithTouchInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1709ADCC2A5A9B84547C44EFBAB07F1A /* UIButtonWithTouchInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEC13947CF096DF98DC1F6D526FBEC6 /* Pods-UIButtonWithTouchInfo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B426F6C0BAABA5B6565C0E417FADBF /* Pods-UIButtonWithTouchInfo_Example-dummy.m */; };
+		78B9CEFB452AFDC008A59E09DE60FD09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B37C5574EE09C64425B62AEDBD8229F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C1605420895E70E73112242018D035EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F3BE013ABA8DDF95645AC5F663F1F800 /* Pods-UIButtonWithTouchInfo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83057F99DFAFB9E740D2C4AAB1183F34 /* Pods-UIButtonWithTouchInfo_Tests-dummy.m */; };
+		F66350CC2C459281BB72400954CDC76C /* UIButtonWithTouchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DA4D5309A202999CBB4108E7B3643D /* UIButtonWithTouchInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		601E087F3F6E1B3E5773E782092EF9C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D67FB7F270ABC1E8769D0C88FFF312B;
+			remoteInfo = UIButtonWithTouchInfo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E9B060C8B800D88775F7A349126897 /* UIButtonWithTouchInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIButtonWithTouchInfo.xcconfig; sourceTree = "<group>"; };
+		1709ADCC2A5A9B84547C44EFBAB07F1A /* UIButtonWithTouchInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIButtonWithTouchInfo.h; sourceTree = "<group>"; };
+		1744862C6BE3D2A0EFC4B4A2E414C15A /* Pods-UIButtonWithTouchInfo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonWithTouchInfo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1D511BB8909432B78C014DE137F30D09 /* Pods-UIButtonWithTouchInfo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButtonWithTouchInfo_Example-umbrella.h"; sourceTree = "<group>"; };
+		1D78A1964C695670F1F456FC253A5CB2 /* Pods-UIButtonWithTouchInfo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonWithTouchInfo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		30A7DB268C9C01E12F2A438493E9A22B /* Pods-UIButtonWithTouchInfo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIButtonWithTouchInfo_Tests.modulemap"; sourceTree = "<group>"; };
+		31134B9A1ABB47565A206E2C6F8086B2 /* Pods-UIButtonWithTouchInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonWithTouchInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A918E22A5A9E157A0E725E11A83256F /* Pods-UIButtonWithTouchInfo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonWithTouchInfo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C5A6F005ABCC89B803C53EB53780FDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAFE01B0E58498C65F819D6A5E1960F /* Pods-UIButtonWithTouchInfo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonWithTouchInfo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41EC82BFD5EE67E87F3964C9E49027F6 /* Pods-UIButtonWithTouchInfo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonWithTouchInfo_Example-resources.sh"; sourceTree = "<group>"; };
+		46CB9667A0D85E924F7E28EB8349E3C8 /* UIButtonWithTouchInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButtonWithTouchInfo-dummy.m"; sourceTree = "<group>"; };
+		46D4228474EAB1DBDBE1B8A0B5E726AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5B3BB4BA17EDA704650EACE0A2C86A /* Pods-UIButtonWithTouchInfo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonWithTouchInfo_Tests-resources.sh"; sourceTree = "<group>"; };
+		7AEE8470C2C5AA41ECCAE52091BB1BB9 /* Pods-UIButtonWithTouchInfo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonWithTouchInfo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		83057F99DFAFB9E740D2C4AAB1183F34 /* Pods-UIButtonWithTouchInfo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButtonWithTouchInfo_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C5CFB4D06B4818BEB25A91EE3DBCDBC /* Pods-UIButtonWithTouchInfo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonWithTouchInfo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94035CB1CD2C396D23DD808F085636FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A497FA3748E75AFE82504C2C9859A47 /* UIButtonWithTouchInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIButtonWithTouchInfo.framework; path = UIButtonWithTouchInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44BCFA652072CB6BE4A481E81325AE4 /* Pods-UIButtonWithTouchInfo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonWithTouchInfo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B08C60AF95DD7C2097F197235EF8C8 /* UIButtonWithTouchInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonWithTouchInfo-umbrella.h"; sourceTree = "<group>"; };
+		C2566799E3CBCA549C17AFA861CFCA9E /* Pods-UIButtonWithTouchInfo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonWithTouchInfo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C53D4CDD8664343F2BCB78B16E149803 /* Pods-UIButtonWithTouchInfo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIButtonWithTouchInfo_Example.modulemap"; sourceTree = "<group>"; };
+		CA8546B86674A05913A77D329BEE9266 /* Pods_UIButtonWithTouchInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButtonWithTouchInfo_Tests.framework; path = "Pods-UIButtonWithTouchInfo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2E3C3D84E10821F592FF74754802B9F /* UIButtonWithTouchInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonWithTouchInfo-prefix.pch"; sourceTree = "<group>"; };
+		D7292DBDBD1EF6408E6ED8A4E0CC9EA9 /* Pods-UIButtonWithTouchInfo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButtonWithTouchInfo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D8BB110EBFA461DF912EBCE6D184D875 /* Pods_UIButtonWithTouchInfo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIButtonWithTouchInfo_Example.framework; path = "Pods-UIButtonWithTouchInfo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B3B18A504E7DCC5C0E3756E00F64E1 /* UIButtonWithTouchInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIButtonWithTouchInfo.modulemap; sourceTree = "<group>"; };
+		E1B426F6C0BAABA5B6565C0E417FADBF /* Pods-UIButtonWithTouchInfo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButtonWithTouchInfo_Example-dummy.m"; sourceTree = "<group>"; };
+		E7DA4D5309A202999CBB4108E7B3643D /* UIButtonWithTouchInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIButtonWithTouchInfo.m; sourceTree = "<group>"; };
+		F93C47E2BDA9CAE3EBD62BE294D78796 /* Pods-UIButtonWithTouchInfo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonWithTouchInfo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16F06E591A54FBE57D8E6C96BE8388A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37C5574EE09C64425B62AEDBD8229F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39439C6A18733D50C5896ADDF801A716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1605420895E70E73112242018D035EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7734DB4B03366E251EF4EF9156F1250C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B9CEFB452AFDC008A59E09DE60FD09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7515FA0EC27D7551D2D73EA707E353 /* UIButtonWithTouchInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C71A17393C611323CC0CADB28B3FE82A /* Support Files */,
+				F5AF35028A52906E0F9AA91CACE8CA51 /* UIButtonWithTouchInfo */,
+			);
+			name = UIButtonWithTouchInfo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6C1C3DF83BBC6331961A2B9B6E394086 /* Pods-UIButtonWithTouchInfo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5A6F005ABCC89B803C53EB53780FDB /* Info.plist */,
+				30A7DB268C9C01E12F2A438493E9A22B /* Pods-UIButtonWithTouchInfo_Tests.modulemap */,
+				8C5CFB4D06B4818BEB25A91EE3DBCDBC /* Pods-UIButtonWithTouchInfo_Tests-acknowledgements.markdown */,
+				3CAFE01B0E58498C65F819D6A5E1960F /* Pods-UIButtonWithTouchInfo_Tests-acknowledgements.plist */,
+				83057F99DFAFB9E740D2C4AAB1183F34 /* Pods-UIButtonWithTouchInfo_Tests-dummy.m */,
+				1D78A1964C695670F1F456FC253A5CB2 /* Pods-UIButtonWithTouchInfo_Tests-frameworks.sh */,
+				6B5B3BB4BA17EDA704650EACE0A2C86A /* Pods-UIButtonWithTouchInfo_Tests-resources.sh */,
+				D7292DBDBD1EF6408E6ED8A4E0CC9EA9 /* Pods-UIButtonWithTouchInfo_Tests-umbrella.h */,
+				31134B9A1ABB47565A206E2C6F8086B2 /* Pods-UIButtonWithTouchInfo_Tests.debug.xcconfig */,
+				1744862C6BE3D2A0EFC4B4A2E414C15A /* Pods-UIButtonWithTouchInfo_Tests.release.xcconfig */,
+			);
+			name = "Pods-UIButtonWithTouchInfo_Tests";
+			path = "Target Support Files/Pods-UIButtonWithTouchInfo_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EC7F30580AFB2486A4D4CAB34972C188 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8CFBE09B1FF3ABB94D9F0873F809C6A8 /* Products */,
+				E5587580D6515F87A8DA2FA5FF920CDF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CFBE09B1FF3ABB94D9F0873F809C6A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB110EBFA461DF912EBCE6D184D875 /* Pods_UIButtonWithTouchInfo_Example.framework */,
+				CA8546B86674A05913A77D329BEE9266 /* Pods_UIButtonWithTouchInfo_Tests.framework */,
+				9A497FA3748E75AFE82504C2C9859A47 /* UIButtonWithTouchInfo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C71A17393C611323CC0CADB28B3FE82A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94035CB1CD2C396D23DD808F085636FC /* Info.plist */,
+				E1B3B18A504E7DCC5C0E3756E00F64E1 /* UIButtonWithTouchInfo.modulemap */,
+				03E9B060C8B800D88775F7A349126897 /* UIButtonWithTouchInfo.xcconfig */,
+				46CB9667A0D85E924F7E28EB8349E3C8 /* UIButtonWithTouchInfo-dummy.m */,
+				D2E3C3D84E10821F592FF74754802B9F /* UIButtonWithTouchInfo-prefix.pch */,
+				C1B08C60AF95DD7C2097F197235EF8C8 /* UIButtonWithTouchInfo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIButtonWithTouchInfo";
+			sourceTree = "<group>";
+		};
+		E5587580D6515F87A8DA2FA5FF920CDF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F884FD6D6255B92320ABB0D51443EB16 /* Pods-UIButtonWithTouchInfo_Example */,
+				6C1C3DF83BBC6331961A2B9B6E394086 /* Pods-UIButtonWithTouchInfo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC7F30580AFB2486A4D4CAB34972C188 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E7515FA0EC27D7551D2D73EA707E353 /* UIButtonWithTouchInfo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EF5D77CEC3E1B6B145F74581ACFCD41C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1709ADCC2A5A9B84547C44EFBAB07F1A /* UIButtonWithTouchInfo.h */,
+				E7DA4D5309A202999CBB4108E7B3643D /* UIButtonWithTouchInfo.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F5AF35028A52906E0F9AA91CACE8CA51 /* UIButtonWithTouchInfo */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D77CEC3E1B6B145F74581ACFCD41C /* Classes */,
+			);
+			name = UIButtonWithTouchInfo;
+			path = UIButtonWithTouchInfo;
+			sourceTree = "<group>";
+		};
+		F884FD6D6255B92320ABB0D51443EB16 /* Pods-UIButtonWithTouchInfo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				46D4228474EAB1DBDBE1B8A0B5E726AE /* Info.plist */,
+				C53D4CDD8664343F2BCB78B16E149803 /* Pods-UIButtonWithTouchInfo_Example.modulemap */,
+				F93C47E2BDA9CAE3EBD62BE294D78796 /* Pods-UIButtonWithTouchInfo_Example-acknowledgements.markdown */,
+				7AEE8470C2C5AA41ECCAE52091BB1BB9 /* Pods-UIButtonWithTouchInfo_Example-acknowledgements.plist */,
+				E1B426F6C0BAABA5B6565C0E417FADBF /* Pods-UIButtonWithTouchInfo_Example-dummy.m */,
+				C2566799E3CBCA549C17AFA861CFCA9E /* Pods-UIButtonWithTouchInfo_Example-frameworks.sh */,
+				41EC82BFD5EE67E87F3964C9E49027F6 /* Pods-UIButtonWithTouchInfo_Example-resources.sh */,
+				1D511BB8909432B78C014DE137F30D09 /* Pods-UIButtonWithTouchInfo_Example-umbrella.h */,
+				A44BCFA652072CB6BE4A481E81325AE4 /* Pods-UIButtonWithTouchInfo_Example.debug.xcconfig */,
+				3A918E22A5A9E157A0E725E11A83256F /* Pods-UIButtonWithTouchInfo_Example.release.xcconfig */,
+			);
+			name = "Pods-UIButtonWithTouchInfo_Example";
+			path = "Target Support Files/Pods-UIButtonWithTouchInfo_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16DA4744406DE033421C2CF1241E3802 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8CEEC6D7C61485F3AADE8AEE5E14CD /* UIButtonWithTouchInfo-umbrella.h in Headers */,
+				38CE0F4A83C4C6193C51681B0AEB67EF /* UIButtonWithTouchInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847951E5BFC4791F37D25E6A5560AE1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31741EA610C812219E8F035563B14202 /* Pods-UIButtonWithTouchInfo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFD37CAAFF62765B6DF5C39029E28EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD0C411BD6E0D3799FB648655A97C68 /* Pods-UIButtonWithTouchInfo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AD5666DADB9033B2EC654089C2566F6 /* Pods-UIButtonWithTouchInfo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E98F2B1BDC2FC346F38DCD652240BE3 /* Build configuration list for PBXNativeTarget "Pods-UIButtonWithTouchInfo_Tests" */;
+			buildPhases = (
+				936FCC9189218D8FC4B31915920C3079 /* Sources */,
+				39439C6A18733D50C5896ADDF801A716 /* Frameworks */,
+				847951E5BFC4791F37D25E6A5560AE1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UIButtonWithTouchInfo_Tests";
+			productName = "Pods-UIButtonWithTouchInfo_Tests";
+			productReference = CA8546B86674A05913A77D329BEE9266 /* Pods_UIButtonWithTouchInfo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D67FB7F270ABC1E8769D0C88FFF312B /* UIButtonWithTouchInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8522FD3C807A11D21A0EB40C6C37B9B /* Build configuration list for PBXNativeTarget "UIButtonWithTouchInfo" */;
+			buildPhases = (
+				27376CC35B414E6E6ED58FD2429526C5 /* Sources */,
+				7734DB4B03366E251EF4EF9156F1250C /* Frameworks */,
+				16DA4744406DE033421C2CF1241E3802 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIButtonWithTouchInfo;
+			productName = UIButtonWithTouchInfo;
+			productReference = 9A497FA3748E75AFE82504C2C9859A47 /* UIButtonWithTouchInfo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFBA90244A592073227063934C7207E4 /* Pods-UIButtonWithTouchInfo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25B010621B55DD9FD96B8D0E7BDF13D /* Build configuration list for PBXNativeTarget "Pods-UIButtonWithTouchInfo_Example" */;
+			buildPhases = (
+				4B8950FA4FE5330C78D12537C995C214 /* Sources */,
+				16F06E591A54FBE57D8E6C96BE8388A7 /* Frameworks */,
+				DCFD37CAAFF62765B6DF5C39029E28EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C9E9EE6321DCB1ED21D377D6074F7C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIButtonWithTouchInfo_Example";
+			productName = "Pods-UIButtonWithTouchInfo_Example";
+			productReference = D8BB110EBFA461DF912EBCE6D184D875 /* Pods_UIButtonWithTouchInfo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8CFBE09B1FF3ABB94D9F0873F809C6A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBA90244A592073227063934C7207E4 /* Pods-UIButtonWithTouchInfo_Example */,
+				4AD5666DADB9033B2EC654089C2566F6 /* Pods-UIButtonWithTouchInfo_Tests */,
+				5D67FB7F270ABC1E8769D0C88FFF312B /* UIButtonWithTouchInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27376CC35B414E6E6ED58FD2429526C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEB092DA50ABD028F71D3C88A833BA7 /* UIButtonWithTouchInfo-dummy.m in Sources */,
+				F66350CC2C459281BB72400954CDC76C /* UIButtonWithTouchInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8950FA4FE5330C78D12537C995C214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEC13947CF096DF98DC1F6D526FBEC6 /* Pods-UIButtonWithTouchInfo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936FCC9189218D8FC4B31915920C3079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE013ABA8DDF95645AC5F663F1F800 /* Pods-UIButtonWithTouchInfo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C9E9EE6321DCB1ED21D377D6074F7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIButtonWithTouchInfo;
+			target = 5D67FB7F270ABC1E8769D0C88FFF312B /* UIButtonWithTouchInfo */;
+			targetProxy = 601E087F3F6E1B3E5773E782092EF9C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35D038F33CB89C206D3DCD16847C52BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44BCFA652072CB6BE4A481E81325AE4 /* Pods-UIButtonWithTouchInfo_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonWithTouchInfo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonWithTouchInfo_Example/Pods-UIButtonWithTouchInfo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UIButtonWithTouchInfo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42347DE5DFB172C88A443EF0347F978C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31134B9A1ABB47565A206E2C6F8086B2 /* Pods-UIButtonWithTouchInfo_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonWithTouchInfo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonWithTouchInfo_Tests/Pods-UIButtonWithTouchInfo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UIButtonWithTouchInfo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		657EC1F98632D282DE5B95B385138829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1744862C6BE3D2A0EFC4B4A2E414C15A /* Pods-UIButtonWithTouchInfo_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonWithTouchInfo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonWithTouchInfo_Tests/Pods-UIButtonWithTouchInfo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UIButtonWithTouchInfo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F56FAD262D2E4ED7CA4243F52BC62DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A918E22A5A9E157A0E725E11A83256F /* Pods-UIButtonWithTouchInfo_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonWithTouchInfo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonWithTouchInfo_Example/Pods-UIButtonWithTouchInfo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UIButtonWithTouchInfo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AFF9F40BF68EDE4F856399048240395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9B060C8B800D88775F7A349126897 /* UIButtonWithTouchInfo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIButtonWithTouchInfo/UIButtonWithTouchInfo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIButtonWithTouchInfo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIButtonWithTouchInfo/UIButtonWithTouchInfo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIButtonWithTouchInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DD5456D9CBFB31867EE66677198F60F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9B060C8B800D88775F7A349126897 /* UIButtonWithTouchInfo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIButtonWithTouchInfo/UIButtonWithTouchInfo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIButtonWithTouchInfo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIButtonWithTouchInfo/UIButtonWithTouchInfo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIButtonWithTouchInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E98F2B1BDC2FC346F38DCD652240BE3 /* Build configuration list for PBXNativeTarget "Pods-UIButtonWithTouchInfo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42347DE5DFB172C88A443EF0347F978C /* Debug */,
+				657EC1F98632D282DE5B95B385138829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8522FD3C807A11D21A0EB40C6C37B9B /* Build configuration list for PBXNativeTarget "UIButtonWithTouchInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5456D9CBFB31867EE66677198F60F6 /* Debug */,
+				9AFF9F40BF68EDE4F856399048240395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25B010621B55DD9FD96B8D0E7BDF13D /* Build configuration list for PBXNativeTarget "Pods-UIButtonWithTouchInfo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D038F33CB89C206D3DCD16847C52BB /* Debug */,
+				8F56FAD262D2E4ED7CA4243F52BC62DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

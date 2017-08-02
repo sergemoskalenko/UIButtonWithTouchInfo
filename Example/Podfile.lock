@@ -1,0 +1,16 @@
+PODS:
+  - UIButtonWithTouchInfo (0.1.0)
+
+DEPENDENCIES:
+  - UIButtonWithTouchInfo (from `../`)
+
+EXTERNAL SOURCES:
+  UIButtonWithTouchInfo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIButtonWithTouchInfo: 0dbd50c8b5490efd991b7e968cd01274c53d9c01
+
+PODFILE CHECKSUM: bfe84bd55dd728f8358d1179d1cc70f30c1c9ca2
+
+COCOAPODS: 1.2.0
