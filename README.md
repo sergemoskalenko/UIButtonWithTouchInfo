@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod "UIButtonWithTouchInfo"
 ```
 
+```ruby
+pod 'UIButtonWithTouchInfo', :git => 'https://github.com/sergemoskalenko/UIButtonWithTouchInfo.git'
+```
+
 ## Author
 
 sergemoskalenko, skype:camopu-ympo, http://camopu.rhorse.ru/ios
