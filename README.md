@@ -10,9 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 WEB Online DEMO:
-https://goo.gl/w9VINb
+https://goo.gl/fUszEr
 
-[![img](https://github.com/sergemoskalenko/UIButtonWithTouchInfo/blob/master/Simulator%20Screen%20Shot%20Aug%204%2C%202017%2C%203.51.36%20PM.png)](https://goo.gl/w9VINb)
+[![img](https://github.com/sergemoskalenko/UIButtonWithTouchInfo/blob/master/Simulator%20Screen%20Shot%20Aug%204%2C%202017%2C%203.51.36%20PM.png)](https://goo.gl/fUszEr)
 
 ## Requirements
 
