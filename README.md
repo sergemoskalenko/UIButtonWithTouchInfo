@@ -1,5 +1,7 @@
 # UIButtonWithTouchInfo
 
+Swift version: https://github.com/sergemoskalenko/UIButtonWithTouchInfo-Swift
+
 [![CI Status](http://img.shields.io/travis/sergemoskalenko/UIButtonWithTouchInfo.svg?style=flat)](https://travis-ci.org/sergemoskalenko/UIButtonWithTouchInfo)
 [![Version](https://img.shields.io/cocoapods/v/UIButtonWithTouchInfo.svg?style=flat)](http://cocoapods.org/pods/UIButtonWithTouchInfo)
 [![License](https://img.shields.io/cocoapods/l/UIButtonWithTouchInfo.svg?style=flat)](http://cocoapods.org/pods/UIButtonWithTouchInfo)
