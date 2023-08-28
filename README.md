@@ -33,7 +33,7 @@ pod 'UIButtonWithTouchInfo', :git => 'https://github.com/sergemoskalenko/UIButto
 
 ## Author
 
-sergemoskalenko, skype:camopu-ympo, http://camopu.rhorse.ru/ios
+sergemoskalenko, skype:camopu-ympo, [http://camopu.rhorse.ru/ios](https://github.com/sergemoskalenko)
 
 ## License
 
